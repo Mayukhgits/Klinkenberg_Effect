@@ -1,30 +1,22 @@
-# Klinkenberg Effect Simulation
+# Klinkenberg_Effect
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
+## Description
 
-A simulation/analysis of the Klinkenberg effect in gas flow through porous media.
+The Klinkenberg Effect, also known as gas slippage, describes the phenomenon where the permeability of a porous medium to gas is observed to be higher than its permeability to liquids or its absolute permeability measured under vacuum conditions. This effect is particularly significant in tight porous media (e.g., shale reservoirs, microfluidic devices) and at low pore pressures, where the mean free path of gas molecules becomes comparable to or larger than the pore size. Understanding and accounting for the Klinkenberg Effect is crucial for accurate modeling of gas flow in various applications, including:
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+* **Reservoir Engineering:** Predicting gas deliverability from tight gas reservoirs.
+* **Geothermal Systems:** Analyzing gas transport in fractured rock.
+* **Microfluidics:** Designing and optimizing micro-scale gas flow devices.
 
-## Overview
+This repository aims to provide a comprehensive resource for understanding and working with the Klinkenberg Effect. It includes:
 
-The Klinkenberg effect describes the phenomenon where gas permeability appears higher than liquid permeability in porous media due to gas slippage at pore walls. This project provides tools to:
-
-- Simulate gas flow with slippage effects
-- Compare with liquid flow scenarios
-- Visualize the permeability dependence on pressure
+* **Theoretical background:** Explanations of the underlying physics and mathematical models.
+* **Simulation scripts:** Python (or other language) scripts for modeling gas flow incorporating the Klinkenberg effect.
+* **Data sets:** Sample data for validating models or for further analysis.
+* **Relevant research papers:** A curated list of key publications.
 
 ## Features
 
-- Numerical simulation of gas slippage
-- Visualization tools for permeability vs. pressure
-- Comparison between Klinkenberg-corrected and uncorrected models
-- Example datasets for common porous materials
+* Implementation of common Klinkenberg models (e.g., Klinkenberg's original equation, modifications).
+* Tools for calculating apparent gas permeability from intrinsic permeability.
+* Visualization scripts for understanding the impact of the Klinkenberg effect.
