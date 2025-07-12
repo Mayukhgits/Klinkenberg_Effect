@@ -8,13 +8,6 @@ The Klinkenberg Effect, also known as gas slippage, describes the phenomenon whe
 * **Geothermal Systems:** Analyzing gas transport in fractured rock.
 * **Microfluidics:** Designing and optimizing micro-scale gas flow devices.
 
-This repository aims to provide a comprehensive resource for understanding and working with the Klinkenberg Effect. It includes:
-
-* **Theoretical background:** Explanations of the underlying physics and mathematical models.
-* **Simulation scripts:** Python (or other language) scripts for modeling gas flow incorporating the Klinkenberg effect.
-* **Data sets:** Sample data for validating models or for further analysis.
-* **Relevant research papers:** A curated list of key publications.
-
 ## Features
 
 * Implementation of common Klinkenberg models (e.g., Klinkenberg's original equation, modifications).
